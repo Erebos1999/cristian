@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    background-color:bisque;
+    color:#333;
+}
+header{
+    background-color:darkcyan;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+section{
+    margin: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 14px;
+    text-decoration: none;
+  }
+  li b {
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+.con{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(30px auto);
+    padding: 10px;
+}
+.con div{
+    background-color:darkcyan;
+    color: gold;
+    padding: 2em;
+    font-size: 8px;
+}
+.con div:hover{
+    border: 5px solid goldenrod;
+}
+h1{
+    color: goldenrod;
+}
+
+div.tex{
+    padding: 15px;
+    text-align: center;
+    background: #333;
+    color: white;
+    font-size: 18px;
+}
+p{
+    background: #333b;
+    color: white;
+    margin: 25px;
+    font-size: 20px;
+}
+div p{
+    
+    grid-gap: 1em;
+    grid-template-rows: minmax(30px auto);
+    padding: 10px;
+    border: 1px solid black;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  text-align: justify;
+}
+.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    }
+    .fin {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        background-color: #333b;
+        color: white;
+        text-align: center;
+    }
